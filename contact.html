@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+		rel="stylesheet">
+	<!-- Preloading the css variable files to prevent the delay in changing theme when the site is first -->
+	<link rel="stylesheet" type="text/css" href="default.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Projects</title>
+</head>
+<body>
+    
+    <div class="intro-wrapper">
+        <div class="nav-wrapper">
+
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="contact.html">Connect</a></li>
+                <button class="btn"><i class="fa fa-download"></i><a href="Tech_Resume_2021.docx" download>Resume</a></button>
+            </ul>
+        </div>
+    </div>
+
+
+    <section id="contact-form">
+        <form id="survey" action="" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+    
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+    
+            <input type="checkbox" name="student" value="student">
+            <label for="student">I am a student</label><br>
+            <input type="checkbox" name="client" value="client">
+            <label for="client">I am a possible client</label><br><br>
+    
+    
+            <textarea name="clientMessage" id="message" cols="40" rows="6"
+                placeholder="Let me know if you have any question:)"></textarea> <br>
+    
+            <input type="submit" value="Submit">
+            <input type="button" value="Reset">
+        </form>
+    
+    </section>
+</body>
+</html>
